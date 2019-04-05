@@ -12,6 +12,7 @@
 		1738A0442257065A0032C64E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1738A0422257065A0032C64E /* Main.storyboard */; };
 		1738A0462257065C0032C64E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1738A0452257065C0032C64E /* Assets.xcassets */; };
 		1738A0492257065C0032C64E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1738A0472257065C0032C64E /* LaunchScreen.storyboard */; };
+		1738A051225707440032C64E /* TextFieldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1738A050225707440032C64E /* TextFieldExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		1738A0452257065C0032C64E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1738A0482257065C0032C64E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1738A04A2257065C0032C64E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1738A050225707440032C64E /* TextFieldExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				1738A0452257065C0032C64E /* Assets.xcassets */,
 				1738A0472257065C0032C64E /* LaunchScreen.storyboard */,
 				1738A04A2257065C0032C64E /* Info.plist */,
+				1738A050225707440032C64E /* TextFieldExtension.swift */,
 			);
 			path = AddToolbarOnKeyboard;
 			sourceTree = "<group>";
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1738A0412257065A0032C64E /* ViewController.swift in Sources */,
+				1738A051225707440032C64E /* TextFieldExtension.swift in Sources */,
 				1738A03F2257065A0032C64E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
